@@ -1,0 +1,16 @@
+Spring:
+  application:
+    name: positions
+  datasource:
+    url: jdbc:mysql://localhost:3306/positions
+    password: root
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always
+
+server:
+  servlet:
+    context-path: /api/v1
+
